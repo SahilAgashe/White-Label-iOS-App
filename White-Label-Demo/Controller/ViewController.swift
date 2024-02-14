@@ -11,11 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .cyan
         
         let appName = Bundle.main.infoDictionary?["CFBundleName"] as? String ?? ""
         let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
         print("appName => \(appName) , appVersion => \(appVersion)")
+        
+        view.backgroundColor = (appName == "Yellow") ? .yellow : (appName == "Cyan") ? .cyan : .systemGray4
         
         let appNameLabel = UILabel()
         appNameLabel.text = "App Name: \(appName)"

@@ -29,9 +29,9 @@
 		816AA8B72B7CEC120062FC40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		816AA8B92B7CEC130062FC40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		816AA8BC2B7CEC130062FC40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		816AA8BE2B7CEC130062FC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816AA8BE2B7CEC130062FC40 /* Cyan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cyan-Info.plist"; sourceTree = "<group>"; };
 		816AA8D12B7CECA30062FC40 /* Yellow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yellow.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		816AA8D22B7CECA30062FC40 /* White-Label-Demo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "White-Label-Demo copy-Info.plist"; path = "/Users/sahilamrutagashe/Documents/iOS Development/Sahil Agashe Github /White-Label-Demo/White-Label-Demo copy-Info.plist"; sourceTree = "<absolute>"; };
+		816AA8D22B7CECA30062FC40 /* Yellow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Yellow-Info.plist"; path = "/Users/sahilamrutagashe/Documents/iOS Development/Sahil Agashe Github /White-Label-Demo/Yellow-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				816AA8AF2B7CEC120062FC40 /* White-Label-Demo */,
+				816AA8BE2B7CEC130062FC40 /* Cyan-Info.plist */,
+				816AA8D22B7CECA30062FC40 /* Yellow-Info.plist */,
 				816AA8AE2B7CEC120062FC40 /* Products */,
-				816AA8D22B7CECA30062FC40 /* White-Label-Demo copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,15 +74,54 @@
 		816AA8AF2B7CEC120062FC40 /* White-Label-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				816AA8D62B7CFC4B0062FC40 /* Application */,
+				816AA8D82B7CFC6D0062FC40 /* Controller */,
+				816AA8D72B7CFC590062FC40 /* Supporting Files */,
+				816AA8D92B7CFED00062FC40 /* CyanApp */,
+				816AA8D52B7CFB640062FC40 /* YellowApp */,
+			);
+			path = "White-Label-Demo";
+			sourceTree = "<group>";
+		};
+		816AA8D52B7CFB640062FC40 /* YellowApp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YellowApp;
+			sourceTree = "<group>";
+		};
+		816AA8D62B7CFC4B0062FC40 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				816AA8B02B7CEC120062FC40 /* AppDelegate.swift */,
 				816AA8B22B7CEC120062FC40 /* SceneDelegate.swift */,
-				816AA8B42B7CEC120062FC40 /* ViewController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		816AA8D72B7CFC590062FC40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				816AA8B62B7CEC120062FC40 /* Main.storyboard */,
 				816AA8B92B7CEC130062FC40 /* Assets.xcassets */,
 				816AA8BB2B7CEC130062FC40 /* LaunchScreen.storyboard */,
-				816AA8BE2B7CEC130062FC40 /* Info.plist */,
 			);
-			path = "White-Label-Demo";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		816AA8D82B7CFC6D0062FC40 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				816AA8B42B7CEC120062FC40 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		816AA8D92B7CFED00062FC40 /* CyanApp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CyanApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,7 +389,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4CJW76Y9FL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "White-Label-Demo/Info.plist";
+				INFOPLIST_FILE = "Cyan-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Cyan;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -378,7 +418,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4CJW76Y9FL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "White-Label-Demo/Info.plist";
+				INFOPLIST_FILE = "Cyan-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Cyan;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -407,7 +447,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4CJW76Y9FL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "White-Label-Demo copy-Info.plist";
+				INFOPLIST_FILE = "Yellow-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Yellow;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -436,7 +476,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4CJW76Y9FL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "White-Label-Demo copy-Info.plist";
+				INFOPLIST_FILE = "Yellow-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Yellow;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
