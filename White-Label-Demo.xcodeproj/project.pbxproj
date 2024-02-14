@@ -13,10 +13,16 @@
 		816AA8B82B7CEC120062FC40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816AA8B62B7CEC120062FC40 /* Main.storyboard */; };
 		816AA8BA2B7CEC130062FC40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816AA8B92B7CEC130062FC40 /* Assets.xcassets */; };
 		816AA8BD2B7CEC130062FC40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816AA8BB2B7CEC130062FC40 /* LaunchScreen.storyboard */; };
+		816AA8C62B7CECA30062FC40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816AA8B42B7CEC120062FC40 /* ViewController.swift */; };
+		816AA8C72B7CECA30062FC40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816AA8B02B7CEC120062FC40 /* AppDelegate.swift */; };
+		816AA8C82B7CECA30062FC40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816AA8B22B7CEC120062FC40 /* SceneDelegate.swift */; };
+		816AA8CB2B7CECA30062FC40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816AA8BB2B7CEC130062FC40 /* LaunchScreen.storyboard */; };
+		816AA8CC2B7CECA30062FC40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816AA8B92B7CEC130062FC40 /* Assets.xcassets */; };
+		816AA8CD2B7CECA30062FC40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816AA8B62B7CEC120062FC40 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		816AA8AD2B7CEC120062FC40 /* White-Label-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "White-Label-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816AA8AD2B7CEC120062FC40 /* Cyan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		816AA8B02B7CEC120062FC40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		816AA8B22B7CEC120062FC40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		816AA8B42B7CEC120062FC40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,10 +30,19 @@
 		816AA8B92B7CEC130062FC40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		816AA8BC2B7CEC130062FC40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		816AA8BE2B7CEC130062FC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816AA8D12B7CECA30062FC40 /* Yellow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yellow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		816AA8D22B7CECA30062FC40 /* White-Label-Demo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "White-Label-Demo copy-Info.plist"; path = "/Users/sahilamrutagashe/Documents/iOS Development/Sahil Agashe Github /White-Label-Demo/White-Label-Demo copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		816AA8AA2B7CEC120062FC40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816AA8C92B7CECA30062FC40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,13 +57,15 @@
 			children = (
 				816AA8AF2B7CEC120062FC40 /* White-Label-Demo */,
 				816AA8AE2B7CEC120062FC40 /* Products */,
+				816AA8D22B7CECA30062FC40 /* White-Label-Demo copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		816AA8AE2B7CEC120062FC40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				816AA8AD2B7CEC120062FC40 /* White-Label-Demo.app */,
+				816AA8AD2B7CEC120062FC40 /* Cyan.app */,
+				816AA8D12B7CECA30062FC40 /* Yellow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		816AA8AC2B7CEC120062FC40 /* White-Label-Demo */ = {
+		816AA8AC2B7CEC120062FC40 /* Cyan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 816AA8C12B7CEC130062FC40 /* Build configuration list for PBXNativeTarget "White-Label-Demo" */;
+			buildConfigurationList = 816AA8C12B7CEC130062FC40 /* Build configuration list for PBXNativeTarget "Cyan" */;
 			buildPhases = (
 				816AA8A92B7CEC120062FC40 /* Sources */,
 				816AA8AA2B7CEC120062FC40 /* Frameworks */,
@@ -82,9 +99,26 @@
 			);
 			dependencies = (
 			);
-			name = "White-Label-Demo";
+			name = Cyan;
 			productName = "White-Label-Demo";
-			productReference = 816AA8AD2B7CEC120062FC40 /* White-Label-Demo.app */;
+			productReference = 816AA8AD2B7CEC120062FC40 /* Cyan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		816AA8C42B7CECA30062FC40 /* Yellow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816AA8CE2B7CECA30062FC40 /* Build configuration list for PBXNativeTarget "Yellow" */;
+			buildPhases = (
+				816AA8C52B7CECA30062FC40 /* Sources */,
+				816AA8C92B7CECA30062FC40 /* Frameworks */,
+				816AA8CA2B7CECA30062FC40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yellow;
+			productName = "White-Label-Demo";
+			productReference = 816AA8D12B7CECA30062FC40 /* Yellow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +149,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				816AA8AC2B7CEC120062FC40 /* White-Label-Demo */,
+				816AA8AC2B7CEC120062FC40 /* Cyan */,
+				816AA8C42B7CECA30062FC40 /* Yellow */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +166,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		816AA8CA2B7CECA30062FC40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816AA8CB2B7CECA30062FC40 /* LaunchScreen.storyboard in Resources */,
+				816AA8CC2B7CECA30062FC40 /* Assets.xcassets in Resources */,
+				816AA8CD2B7CECA30062FC40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,6 +186,16 @@
 				816AA8B52B7CEC120062FC40 /* ViewController.swift in Sources */,
 				816AA8B12B7CEC120062FC40 /* AppDelegate.swift in Sources */,
 				816AA8B32B7CEC120062FC40 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816AA8C52B7CECA30062FC40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816AA8C62B7CECA30062FC40 /* ViewController.swift in Sources */,
+				816AA8C72B7CECA30062FC40 /* AppDelegate.swift in Sources */,
+				816AA8C82B7CECA30062FC40 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +350,7 @@
 				DEVELOPMENT_TEAM = 4CJW76Y9FL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "White-Label-Demo/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Cyan;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,8 +360,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Sahil.Amrut.Agashe.com.White-Label-Demo";
+				MARKETING_VERSION = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sahil.Amrut.Agashe.com.Cyan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,6 +379,7 @@
 				DEVELOPMENT_TEAM = 4CJW76Y9FL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "White-Label-Demo/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Cyan;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,8 +389,66 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Sahil.Amrut.Agashe.com.White-Label-Demo";
+				MARKETING_VERSION = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sahil.Amrut.Agashe.com.Cyan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		816AA8CF2B7CECA30062FC40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CJW76Y9FL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "White-Label-Demo copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Yellow;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 20.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sahil.Amrut.Agashe.com.Yellow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		816AA8D02B7CECA30062FC40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CJW76Y9FL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "White-Label-Demo copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Yellow;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 20.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sahil.Amrut.Agashe.com.Yellow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,11 +468,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		816AA8C12B7CEC130062FC40 /* Build configuration list for PBXNativeTarget "White-Label-Demo" */ = {
+		816AA8C12B7CEC130062FC40 /* Build configuration list for PBXNativeTarget "Cyan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				816AA8C22B7CEC130062FC40 /* Debug */,
 				816AA8C32B7CEC130062FC40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816AA8CE2B7CECA30062FC40 /* Build configuration list for PBXNativeTarget "Yellow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816AA8CF2B7CECA30062FC40 /* Debug */,
+				816AA8D02B7CECA30062FC40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
