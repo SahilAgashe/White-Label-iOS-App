@@ -14,17 +14,26 @@ class ViewController: UIViewController {
         
         let appName = Bundle.main.infoDictionary?["CFBundleName"] as? String ?? ""
         let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
-        print("appName => \(appName) , appVersion => \(appVersion)")
+        print("appName => \(appName) , appVersion => \(appVersion) , description => \(DatabaseManager.description)")
         
         view.backgroundColor = (appName == "Yellow") ? .yellow : (appName == "Cyan") ? .cyan : .systemGray4
         
         let appNameLabel = UILabel()
+        appNameLabel.textAlignment = .center
         appNameLabel.text = "App Name: \(appName)"
     
         let appVersionLabel = UILabel()
+        appVersionLabel.textAlignment = .center
         appVersionLabel.text = "App Version: \(appVersion)"
         
-        let vstack = UIStackView(arrangedSubviews: [appNameLabel, appVersionLabel])
+        let databaseDescriptionLabel = UILabel()
+        databaseDescriptionLabel.numberOfLines = 0
+        databaseDescriptionLabel.textAlignment = .center
+        databaseDescriptionLabel.text = "Database Description: \n \(DatabaseManager.description)"
+        
+        let vstack = UIStackView(arrangedSubviews: [appNameLabel, appVersionLabel, databaseDescriptionLabel])
+        vstack.spacing = 10
+        vstack.distribution = .fill
         vstack.axis = .vertical
         vstack.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(vstack)

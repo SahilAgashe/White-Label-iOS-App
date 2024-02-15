@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810374E42B7D8BE9005BAFA0 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810374E32B7D8BE9005BAFA0 /* DatabaseManager.swift */; };
+		810374E62B7D8C03005BAFA0 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810374E52B7D8C03005BAFA0 /* DatabaseManager.swift */; };
 		816AA8B12B7CEC120062FC40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816AA8B02B7CEC120062FC40 /* AppDelegate.swift */; };
 		816AA8B32B7CEC120062FC40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816AA8B22B7CEC120062FC40 /* SceneDelegate.swift */; };
 		816AA8B52B7CEC120062FC40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816AA8B42B7CEC120062FC40 /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		810374E32B7D8BE9005BAFA0 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		810374E52B7D8C03005BAFA0 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		816AA8AD2B7CEC120062FC40 /* Cyan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		816AA8B02B7CEC120062FC40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		816AA8B22B7CEC120062FC40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		816AA8D52B7CFB640062FC40 /* YellowApp */ = {
 			isa = PBXGroup;
 			children = (
+				810374E52B7D8C03005BAFA0 /* DatabaseManager.swift */,
 			);
 			path = YellowApp;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 		816AA8D92B7CFED00062FC40 /* CyanApp */ = {
 			isa = PBXGroup;
 			children = (
+				810374E32B7D8BE9005BAFA0 /* DatabaseManager.swift */,
 			);
 			path = CyanApp;
 			sourceTree = "<group>";
@@ -223,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810374E42B7D8BE9005BAFA0 /* DatabaseManager.swift in Sources */,
 				816AA8B52B7CEC120062FC40 /* ViewController.swift in Sources */,
 				816AA8B12B7CEC120062FC40 /* AppDelegate.swift in Sources */,
 				816AA8B32B7CEC120062FC40 /* SceneDelegate.swift in Sources */,
@@ -233,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810374E62B7D8C03005BAFA0 /* DatabaseManager.swift in Sources */,
 				816AA8C62B7CECA30062FC40 /* ViewController.swift in Sources */,
 				816AA8C72B7CECA30062FC40 /* AppDelegate.swift in Sources */,
 				816AA8C82B7CECA30062FC40 /* SceneDelegate.swift in Sources */,
